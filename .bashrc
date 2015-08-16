@@ -1,6 +1,6 @@
 if hash rvm 2>/dev/null; then
   # Add RVM to path for scripting
-  export PATH="$PATH:$HOME/.rvm/bin"
+  export PATH="$PATH:$HOME/.rvm/bin:$HOME/.cabal/bin"
 fi
 
 if hash ri 2>/dev/null; then
