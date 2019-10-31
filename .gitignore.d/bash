@@ -1,0 +1,6 @@
+*
+!/.bash_profile
+!/.bashrc
+!/.inputrc
+!/.gitignore.d
+!/.gitignore.d/bash
