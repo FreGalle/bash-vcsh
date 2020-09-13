@@ -14,3 +14,8 @@ fi
 if hash rvm 2>/dev/null; then
   . "$HOME/.rvm/scripts/rvm"
 fi
+
+# Nix integration
+if [ -e $HOME/.nix-profile/etc/profile.d/nix.sh ]; then
+	. $HOME/.nix-profile/etc/profile.d/nix.sh
+fi
